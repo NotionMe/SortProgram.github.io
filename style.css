@@ -87,6 +87,24 @@ main {
     background-color: #0056b3;
 }
 
+.video-container {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.feature-video {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    margin: 0 auto;
+    display: block;
+}
+
+.center-video {
+    margin: 0 auto;
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
     .hero-content h1 {
